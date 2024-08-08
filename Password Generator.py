@@ -1,3 +1,4 @@
+from os import name
 import random
 import string
 
@@ -18,5 +19,5 @@ def main():
     except ValueError:
         print("Please enter a valid number.")
 
-if name == "main":
+if __name__ == "__main__":
     main()
