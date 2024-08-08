@@ -1,3 +1,6 @@
+from os import name
+
+
 def display_menu():
     print("\n--- To-Do List Menu ---")
     print("1. Add Task")
@@ -59,5 +62,5 @@ def main():
         else:
             print("Invalid choice. Please enter a number between 1 and 5.")
 
-if name == "main":
+if __name__ == "__main__": # type: ignore
     main()
