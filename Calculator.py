@@ -1,3 +1,6 @@
+from os import name
+
+
 def calculator():
     print("Simple Calculator")
     
@@ -21,5 +24,5 @@ def calculator():
     
     print(f"The result is: {result}")
 
-if name == "main":
+if __name__ == "__main__": # type: ignore
     calculator()
